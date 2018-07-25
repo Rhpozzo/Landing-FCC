@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="EI=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>🐟</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/Jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class='container'>
+
+            <nav id='header'>
+                <nav id='nav-bar' class='container navbar navbar-default navbar-fixed-top'>
+                    <img id='header-img' class="smallLogo img-responsive" src="http://smallLogo.jpg">
+
+                    <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-link"><a href="#jumbo">About</a></li>
+                            <li class="nav-link"><a href="#FarmLink">Farm Raised</a></li>
+                            <li class="nav-link"><a href="#Pricing">Pricing</a></li>
+                            <li><a href="#copy">Contact</a></li>
+                    </ul>
+                </nav>
+            </nav>
+
+            <div class='row'>
+                <div class='col-md-12'>
+                    <div id='jumbo' class='jumbotron'>
+                            <h1>
+                                ALL NATURAL GROWN TILAPIA
+                            </h1>        
+                    </div>
+                </div>
+            </div>
+
+            <div class='row'>
+                <div class='col-md-12 embed-responsive embed-responsive-16by9'>
+                    <section align="center">
+                            <iframe id="video" width="1000" height="500" src="https://www.youtube.com/embed/ISx-kJOCxjg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                    </section>
+                </div>
+                    <p>This video belongs to <a href="https://www.regalsprings.com/">Regal Springs</a> it is put here for demostration purposes only. All rights reserved.</p>
+                    <div id='submit1'>
+                            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                                <label for="email">Would you like to know more?</label>
+                                <input name="email" id="email" type="email" placeholder="Your email address" required/>
+                                <input id="submit" type="submit" value="Submit" class="btn"></input>
+                            </form>
+                    </div>
+            </div>
+
+            <div id="FarmLink">
+                    <h2>Farm Raised:</h2>
+                        <div id="aboutText">
+                        <p  class="col-md-6">
+                        Our tilapia grow naturally in large floating pens in vast, untainted lakes in Mexico, Honduras and Indonesia. Just like fish in the wild, they swim without crowding against water currents to grow strong and healthy, but without the health risks wild fish face.
+                        For optimal health and development, our tilapia are fed a controlled, nutritious and floating grain-based diet. Our quality feed is produced onsite and consists consists of beans, cereals and grains. Our method for raising tilapia ensure our fish do not eat the algae, mud or shallow-pond waste wild-caught fish are exposed to.
+                        To ensure perfect water quality, we feature on-site monitoring stations and labs at each lake where our tilapia are raised—continually monitoring the water in which they swim. It’s a crucial part of our farming operations and one more step in producing tilapia raised to be the finest in the world.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                            <img id="aboutimg"class="img-responsive" src="farmimg.png">
+                    </div>
+                </div>       
+
+            <div id='Pricing'>
+                <div id='row'>
+                        <div id="fresh" class="col-md-4">
+                                <h3>Fresh fillets: </h3>
+                                <p>Our fresh fillet can be bought kilograms</p>
+                                <p>The kilogram of tilapia goes for 30 WoW tokens.</p>
+                                <img id="primg" class="img-responsive" src="primg.png">
+                                <br>
+                                    
+                        <div align="center">
+                                    <button class="btn buttons">Select</button>
+                        </div>
+                    </div>
+
+                <div id="unprocessed" class="col-md-4">
+                        <h3>Fresh unprocessed:</h3>
+                        <p>We also have unprocessed tilapia straight from our ponds.</p>
+                        <p>Each kilogram of unprocessed tilapia has a price of 15 WoW tokens with shipping and handling.</p>
+                        <img id="primg" class="img-responsive" src="unprocessed.png">
+                        <br>
+                        <div align="center">
+                            <button class="btn buttons">Select</button>
+                        </div>
+                </div>
+                    <div id="finger" class="col-md-4">
+                            <h3>Fingerlings</h3>
+                            <p>You can start your own tilapia growth farm with our certified fingerlings.</p>
+                            <p>Please contact us for more information.</p>
+                            <img id="primg" class="img-responsive" src="fingerling.png">
+                            <br>
+                            <div align="center">
+                                <button class="btn buttons">Select</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+            <footer id='footer'>
+                <div class='row'>
+                    <div class="col-md-12">
+                        <p><a href="#">Privacy</a></p>
+                        <p><a href="#">Terms</a></p>
+                        <p><a href="#">Contact</a></p>
+                    </div>
+                </div>
+            </footer>
+            <div id='copy'>
+                <span class="fa fa-free-code-camp" aria-hidden="true"> Copyright 2017, All Natural Tilapia</span>
+            </div>
+    </body>
+</html>
